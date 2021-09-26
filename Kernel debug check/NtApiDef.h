@@ -1,7 +1,7 @@
 #pragma once
 #include "Struct.h"
 
-EXTERN_C NTSTATUS NtQuerySystemInformation(
+EXTERN_C NTSTATUS NTAPI NtQuerySystemInformation(
     SYSTEM_INFORMATION_CLASS SystemInformationClass,
     PVOID                    SystemInformation,
     ULONG                    SystemInformationLength,
